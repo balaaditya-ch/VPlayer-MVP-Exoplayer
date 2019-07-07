@@ -1,0 +1,32 @@
+<animated-vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+                android:name="play_icon"
+                android:width="512dp"
+                android:height="512dp"
+                android:viewportWidth="512"
+                android:viewportHeight="512">
+            <group android:name="group">
+                <path
+                        android:name="path"
+                        android:pathData="M 256 0 C 114.617 0 0 114.615 0 256 C 0 397.385 114.617 512 256 512 C 397.383 512 512 397.385 512 256 C 512 114.615 397.383 0 256 0 Z M 344.48 269.57 L 216.48 349.57 C 213.89 351.187 210.945 352 208 352 C 205.332 352 202.66 351.336 200.242 349.992 C 195.156 347.172 192 341.82 192 336 L 192 176 C 192 170.18 195.156 164.828 200.242 162.008 C 205.328 159.172 211.547 159.344 216.48 162.43 L 344.48 242.43 C 349.156 245.36 352 250.485 352 256 C 352 261.515 349.156 266.641 344.48 269.57 Z"
+                        android:fillColor="#0000ff"
+                        android:strokeWidth="1"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="path">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                    android:propertyName="fillColor"
+                    android:duration="500"
+                    android:valueFrom="#B74E4EEC"
+                    android:valueTo="#87ceeb"
+                    android:valueType="colorType"
+                    android:interpolator="@android:anim/anticipate_interpolator"
+            />
+        </aapt:attr>
+    </target>
+</animated-vector>

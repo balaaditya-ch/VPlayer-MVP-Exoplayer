@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VPlayer</string>
+    <string name="selectedVideo">selected videos</string>
+    <string name="related">Related...</string>
+</resources>
